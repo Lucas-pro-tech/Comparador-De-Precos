@@ -33,3 +33,42 @@ h1 {
     margin-bottom: 30px;
 }
 
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+form .product-input {
+    flex-grow: 1;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 25px;
+    outline: none;
+}
+
+form .product-input {
+    box-shadow: 0 0 5px var(--primary-color);
+}
+
+form button {
+    padding: 12px 25px;
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--background-color);
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+.product-list {
+    background-color: var(--card-background);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    text-align: center;
+}
